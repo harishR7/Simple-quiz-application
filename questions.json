@@ -1,0 +1,262 @@
+[
+    {
+        "question": "Who developed the Python language?",
+        "options": [
+            "A. Zim Den",
+            "B. Guido van Rossum",
+            "C. Niene Stom",
+            "D. Wick van Rossum"
+        ],
+        "answer": "B. Guido van Rossum"
+    },
+    {
+        "question": "In which year was the Python language developed?",
+        "options": [
+            "A. 1995",
+            "B. 1972",
+            "C. 1981",
+            "D. 1989"
+        ],
+        "answer": "D. 1989"
+    },
+    {
+        "question": "In which language is Python written?",
+        "options": [
+            "A. English",
+            "B. PHP",
+            "C. C",
+            "D. All of the above"
+        ],
+        "answer": "C. C"
+    },
+    {
+        "question": "Which one of the following is the correct extension of the Python file?",
+        "options": [
+            "A. .py ",
+            "B. .python",
+            "C. .p",
+            "D. None of these"
+        ],
+        "answer": "A. .py"
+    },
+    {
+        "question": " Which character is used in Python to make a single line comment?",
+        "options": [
+            "A. /",
+            "B. //",
+            "C. #",
+            "D. !"
+        ],
+        "answer": "C. #"
+    },
+    {
+        "question": "What is the method inside the class in python language?",
+        "options": [
+            "A. Object",
+            "B. Function",
+            "C. Attribute",
+            "D. Argument"
+        ],
+        "answer": "B. Function"
+    },
+    {
+        "question": " Which of the following is not a keyword in Python language?",
+        "options": [
+            "A. val",
+            "B. raise",
+            "C. try",
+            "D. with"
+        ],
+        "answer": "A. val"
+    },
+    {
+        "question": "Which of the following operators is the correct option for power(ab)?",
+        "options": [
+            "A. a ^ b",
+            "B. a**b",
+            "C. a ^ ^ b",
+            "D. a ^ * b"
+        ],
+        "answer": "B. a**b"
+    },
+    {
+        "question": "Which of the following is correctly evaluated for this function? pow(x,y,z) ",
+        "options": [
+            "(x**y) / z",
+            "B. (x / y) * z",
+            "C. (x**y) % z",
+            "D. (x / y) / z"
+        ],
+        "answer": "C. (x**y) % z"
+    },
+    {
+        "question": "What is the output of this code?\na,b=1,0\na=a^b\nb=a^b\na=a^b\nprint(a)",
+        "options": [
+            "A. 0",
+            "B. 1",
+            "C. 2",
+            "D. This code will raise a runtime error"
+        ],
+        "answer": "A. 0"
+    },
+    {
+        "question": "What is the value of this expression?\n2**2**3**1?",
+        "options": [
+            "A. 12",
+            "B. 64",
+            "C. 128",
+            "D. 256"
+        ],
+        "answer": "D. 256"
+    },
+    {
+        "question": "Polymorphism is when a subclass can modify the behavior of its superclass",
+        "options": [
+            "A. False",
+            "B. True",
+            "C. Depends on the contents of the class",
+            "D. This is an invalid question"
+        ],
+        "answer": "B. True"
+    },
+    {
+        "question": "What is the output of the following code?\n>>> list = [a, b, c]\n>>> list += de>>> print(list",
+        "options": [
+            "A. [a,b,c,d,e]",
+            "B. [a,b,c,de]",
+            "C. [ade, bde, cde]",
+            "D.  This raises an exception because we cannot add a string to a list"
+        ],
+        "answer": "A. [a,b,c,d,e]"
+    },
+    {
+        "question": "What will this code print?\n>>> from random import randint\n\n>>> for i in range(5):\n print(random(1, 5))",
+        "options": [
+            "A. Five random numbers in the range 1 to 4",
+            "B.  Five random numbers in the range 1 to 5",
+            "C. Five random integers in the range 1 to 4",
+            "D. This code raises an exception"
+        ],
+        "answer": "D. This code raises an exception"
+    },
+    {
+        "question": "Choose the correct output for this code:\n>>> a=1\n>>> def func(a):\n        return a**2\n\n>>> a = func(a)**2\n>>> print(func(a))",
+        "options": [
+            "A. 1",
+            "B. 2",
+            "C. 4",
+            "D. 16"
+        ],
+        "answer": "A. 1"
+    },
+    {
+        "question": "How many levels deep are sublists in this list?\n>>> l = list()\n>>> l.append([1, 2, [3, 4]])\n>>> l.extend([5, 6, 7])\n>>> print(l)",
+        "options": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "answer": "B. 2"
+    },
+    {
+        "question": "In the following options which are python libraries which are used for data analysis and scientific computations",
+        "options": [
+            "A. Nump",
+            "B. Scipy",
+            "C. Pandas",
+            "D. All the above"
+        ],
+        "answer": "D. All the above"
+    },
+    {
+        "question": "What command is used to insert 6 in a list L at 3rd position ?",
+        "options": [
+            "A. L.insert(2,6)",
+            "B. L.insert(3,6)",
+            "C. L.add(3,6)",
+            "D. L.append(2,6)"
+        ],
+        "answer": "A. L.insert(2,6)"
+    },
+    {
+        "question": "Which among them will produce {'a', 'b', 'c'}?",
+        "options": [
+            "A. Tuple(''abc'')",
+            "B.List(''abc'')",
+            "C. Set(''abac'')",
+            "D. None of the above"
+        ],
+        "answer": "D. None of the above"
+    },
+    {
+        "question": "How can we generate random numbers in python using methods?",
+        "options": [
+            "A. random.uniform ()",
+            "B.  random.randint()",
+            "C. random.random()",
+            "D. All of the above"
+        ],
+        "answer": "D. All of the above"
+    },
+    {
+        "question": "Which event among them is fired when the right mouse button is released?",
+        "options": [
+            "A. <ButtonReleased>",
+            "B.  <ButtonPressed>",
+            "C.  <ButtonReleased-3>",
+            "D.  <ButtonPressed-3>"
+        ],
+        "answer": "C.  <ButtonReleased-3>"
+    },
+    {
+        "question": " Which is the special symbol used in python to add comments?",
+        "options": [
+            "A. $",
+            "B. //",
+            "C.  /*.... */",
+            "D. #"
+        ],
+        "answer": "D. #"
+    },
+    {
+        "question": " Name the error that doesn\u00e2\u20ac\u2122t cause program to stop/end, but the output is not the desired result or is incorrect.",
+        "options": [
+            "A. Syntax error",
+            "B. Runtime error",
+            "C. Logical error",
+            "D. All of the above"
+        ],
+        "answer": "C. Logical error"
+    },
+    {
+        "question": "What is output for \u00e2\u02c6\u2019 min(''hello world'')",
+        "options": [
+            "A. e",
+            "B.a blank space character",
+            "C. w",
+            "D. None of the above."
+        ],
+        "answer": "B.a blank space character"
+    },
+    {
+        "question": "Select the correct function among them which can be used to write the data to perform for a binary output?",
+        "options": [
+            "A. Write",
+            "B. Output.binary",
+            "C. Dump",
+            "D. Binary.output"
+        ],
+        "answer": "C. Dump"
+    },
+    {
+        "question": "Which module is used in python to create Graphics?",
+        "options": [
+            "A. Turtles",
+            "B. Canvas",
+            "C.  Tkinter",
+            "D. Graphics"
+        ],
+        "answer": "A. Turtle"
+    }
+]
